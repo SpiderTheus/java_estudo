@@ -1,0 +1,41 @@
+package nivel02;
+import java.util.Scanner;
+
+public class ContagemPrimo {
+	/* Crie um programa que receba um número 
+	 * e exiba todos os números primos entre 1 e esse número.
+	 */
+	
+	
+	public static void main(String[] args) {
+		int num;
+		
+		Scanner sc = new Scanner(System.in);
+		
+		System.out.println("Digite um número: ");
+		num = sc.nextInt();
+		
+		for(int i = 1; i <= num; i++) {
+			int x = i;
+			
+			for(int I = 1; I <= x; I++) {
+				int n;
+				if ( x % x == 0 && x % 2 == 0) {
+					n = x % I;
+					if(x == 1) {
+						// nada acontece
+						break;
+
+						} 
+					else if(n != 0) {
+						System.out.print(x + ", ");
+					} 
+				} else {
+					break;
+				}	
+			}
+		}
+		sc.close();
+	}
+	
+}

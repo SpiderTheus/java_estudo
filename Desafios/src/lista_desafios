@@ -1,0 +1,100 @@
+Nível 1: Fundamentos e Sintaxe Básica
+Calculadora Simples
+
+Crie um programa que receba dois números e realize as quatro operações básicas: adição, subtração, multiplicação e divisão.
+Exemplo de Entrada: 5, 3.
+Exemplo de Saída: Soma = 8, Subtração = 2, Multiplicação = 15, Divisão = 1.666.
+Número Par ou Ímpar
+
+Escreva um programa que receba um número do usuário e informe se ele é par ou ímpar.
+Exemplo de Entrada: 7.
+Exemplo de Saída: "O número é ímpar".
+Tabuada
+
+Faça um programa que mostre a tabuada de um número digitado pelo usuário.
+Exemplo de Entrada: 6.
+Exemplo de Saída:
+python
+Copiar código
+6 x 1 = 6
+6 x 2 = 12
+...
+6 x 10 = 60
+Conversor de Temperatura
+
+Converta graus Celsius para Fahrenheit e Kelvin.
+Fórmulas:
+Fahrenheit = Celsius * 1.8 + 32
+Kelvin = Celsius + 273.15.
+Exemplo de Entrada: 25°C.
+Exemplo de Saída: 77°F, 298.15K.
+Nível 2: Controle de Fluxo e Estruturas de Repetição
+Contagem de Números Primos
+
+Crie um programa que receba um número e exiba todos os números primos entre 1 e esse número.
+Exemplo de Entrada: 10.
+Exemplo de Saída: 2, 3, 5, 7.
+Soma dos N primeiros Números
+
+Escreva um programa que calcule a soma de todos os números de 1 até N (o número fornecido pelo usuário).
+Exemplo de Entrada: 5.
+Exemplo de Saída: 15 (1 + 2 + 3 + 4 + 5).
+Fibonacci
+
+Faça um programa que mostre os primeiros N números da sequência de Fibonacci.
+Exemplo de Entrada: 8.
+Exemplo de Saída: 0, 1, 1, 2, 3, 5, 8, 13.
+Palíndromo
+
+Escreva um programa que verifique se uma palavra é um palíndromo (mesma sequência de letras de trás para frente).
+Exemplo de Entrada: "arara".
+Exemplo de Saída: "A palavra é um palíndromo".
+Nível 3: Arrays e Coleções
+Maior e Menor em um Array
+
+Faça um programa que leia uma lista de 10 números inteiros e exiba o maior e o menor número.
+Exemplo de Entrada: [3, 5, 7, 2, 8, 9, 1, 4, 10, 6].
+Exemplo de Saída: "Maior: 10, Menor: 1".
+Cálculo de Média
+
+Crie um programa que leia as notas de 5 alunos e calcule a média dessas notas.
+Exemplo de Entrada: [7.5, 8.0, 9.2, 6.3, 7.8].
+Exemplo de Saída: "A média é 7.76".
+Invertendo um Array
+
+Escreva um programa que inverta a ordem dos elementos de um array.
+Exemplo de Entrada: [1, 2, 3, 4, 5].
+Exemplo de Saída: [5, 4, 3, 2, 1].
+Nível 4: Programação Orientada a Objetos
+Sistema de Funcionários
+
+Crie uma classe Funcionario com atributos como nome, cargo e salario. Em seguida, crie uma classe principal que instancie objetos dessa classe e exiba suas informações.
+Exemplo:
+java
+Copiar código
+Funcionario f1 = new Funcionario("João", "Gerente", 5000);
+f1.exibirInformacoes();
+Gerenciamento de Conta Bancária
+
+Crie uma classe ContaBancaria com métodos para depositar, sacar e verificar o saldo. Cada operação deve alterar o saldo da conta.
+Exemplo:
+java
+Copiar código
+ContaBancaria c = new ContaBancaria(1000);
+c.depositar(500);
+c.sacar(200);
+c.verificarSaldo(); // Saída: 1300
+Jogo de Pedra, Papel e Tesoura
+
+Crie uma classe Jogo com um método para jogar uma partida de "Pedra, Papel e Tesoura" entre o jogador e o computador (escolhas aleatórias).
+Exemplo de Saída: "Você escolheu Pedra, o computador escolheu Tesoura. Você ganhou!"
+Sistema de Aluguel de Carros
+
+Crie um sistema simples de aluguel de carros. Crie as classes Carro, Cliente e Aluguel. O sistema deve permitir cadastrar clientes, listar carros disponíveis e registrar o aluguel de um carro.
+Exemplo:
+java
+Copiar código
+Cliente cliente1 = new Cliente("Maria");
+Carro carro1 = new Carro("Honda Civic", "Preto", 2019);
+Aluguel aluguel1 = new Aluguel(cliente1, carro1);
+aluguel1.registrarAluguel();

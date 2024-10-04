@@ -1,0 +1,28 @@
+package sistema1;
+import java.util.Scanner;
+public class somador {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Scanner sc = new Scanner (System.in);
+		
+		int x, soma;
+		
+		soma = 0;
+		System.out.println("*somador*");
+		System.out.println("Digite um numero pra somar: ");
+		x = sc.nextInt();
+		
+		while(x != 0) {
+			System.out.println("Digite outro numero: ");
+			soma = x + sc.nextInt();
+			x = 0;
+		}
+		
+		System.out.println("A soma é " + soma);
+		
+		sc.close();
+		
+	}
+
+}
