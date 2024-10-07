@@ -1,0 +1,14 @@
+Requisitos funcionais:
+Escolha do Intervalo: o jogador pode definir o intervalo de números, dentro do qual um número deve ser adivinhado
+Geração de Números Aleatórios: o programa deve gerar um número aleatório no intervalo definido.
+Entrada do Jogador: permitir que o jogador insira tentativas para adivinhar o número.
+Fornecimento de Dicas: informar ao jogador se o número adivinhado é maior, menor ou igual ao número gerado.
+Contagem de Tentativas: manter um contador de tentativas até o acerto.
+Opção de Sair: permitir que o jogador encerre o jogo a qualquer momento.
+Mensagem de Encerramento: exibir uma mensagem de encerramento, informando o número de tentativas realizadas.
+
+Requisitos Técnicos:
+Uso de Estruturas de Controle: implementar loops e condicionais para gerenciar o fluxo do jogo.
+Geração de Números Aleatórios: utilizar a classe ‘Random’ para gerar o número secreto.
+Tratamento de Exceções: incluir tratamento para entradas inválidas (por exemplo, caracteres não numéricos).
+Interação com o Usuário: exibir mensagens claras e informativas para guiar o jogador.
